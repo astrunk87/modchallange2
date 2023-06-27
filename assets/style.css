@@ -10,6 +10,7 @@ body {
     color: var(--light);
     background-color:var(--dark2);
     
+    
 }
 
 header{
@@ -21,7 +22,7 @@ header{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: center;
+    justify-content: left;
 }
 .card{
     flex: 1 0 100%;
@@ -36,21 +37,29 @@ header{
     background-color:var(--dark2);
     font-family: "Arial, Helvetica, sans-serif";
     flex: 1 0 200px;
-    border-width: 5px;
+    border-width: 10px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    
-    
+
+       
     
 }
 .aboutme{
     color: var(--light);
     background-color:var(--dark);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
 }
 .contactinfo{
     color:var(--light);
     background-color:var(--dark);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
 }
 @media screen and (max-width:992px){
 
