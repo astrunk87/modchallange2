@@ -1,6 +1,9 @@
 *{
     font-family:'Courier New', Courier, monospace;
 }
+* {
+    box-sizing: border-box;
+  }
 :root{
     --dark: #000000;
     --light: #008000;
@@ -31,7 +34,12 @@ header{
     flex-direction: row;
     justify-content: center;
     border: solid yellow;
+    margin: 20px;
 }
+.card img {
+    width: 5%;
+    position:relative;
+  }
 .project{
     color:var(--light);
     background-color:var(--dark2);
