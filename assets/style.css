@@ -61,7 +61,7 @@ header{
     width: 10%;
     position:relative;
     
-  }
+}
 .project{
     color:var(--light);
     background-color:var(--dark2);
@@ -71,10 +71,24 @@ header{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    
+    text-align: center;   
        
     
 }
+.project1{
+    color:var(--light);
+    background-color:var(--dark2);
+    font-family: "Arial, Helvetica, sans-serif";
+    flex: 2 0 200px;
+    border-width: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
 .aboutme{
     color: var(--light);
     background-color:var(--dark);
