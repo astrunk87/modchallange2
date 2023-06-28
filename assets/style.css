@@ -15,13 +15,20 @@ body {
         
     
 }
+
 li{
     display: inline;
     text-decoration:none;
     padding: 0 20px;
+    font-size: larger;
 }
 .textright{
     text-align: right;
+    text-decoration: none;
+    
+}
+a{
+    color: var(--light);
     text-decoration: none;
 }
 
@@ -30,6 +37,7 @@ header{
     margin: 0 auto;
     text-align: center;
     font-size: larger;
+    background-color: var(--dark);
 }
 .row{
     display: flex;
