@@ -89,21 +89,14 @@ header{
 
 
 
-.aboutme{
+.info{
     color: var(--light);
     background-color:var(--dark);
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-}
-.contactinfo{
-    color:var(--light);
-    background-color:var(--dark);
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
+    text-align: center;
     
 }
 
