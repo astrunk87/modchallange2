@@ -6,15 +6,25 @@
   }
 :root{
     --dark: #000000;
-    --light: #008000;
+    --light: lightblue;
     --dark2: grey;
 }
 body {
     color: var(--light);
     background-color:var(--dark2);
-    
+        
     
 }
+li{
+    display: inline;
+    text-decoration:none;
+    padding: 0 20px;
+}
+.textright{
+    text-align: right;
+    text-decoration: none;
+}
+
 
 header{
     margin: 0 auto;
@@ -30,15 +40,19 @@ header{
 .card{
     flex: 1 0 100%;
     padding: 2px;
+    display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    border: solid yellow;
+    border: solid var(--light);
     margin: 20px;
 }
 .card img {
-    width: 5%;
+    display: block;
+    margin: 20px auto;
+    width: 10%;
     position:relative;
+    
   }
 .project{
     color:var(--light);
@@ -49,7 +63,7 @@ header{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-
+    
        
     
 }
@@ -68,7 +82,9 @@ header{
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
+    
 }
+
 @media screen and (max-width:992px){
 
 }
